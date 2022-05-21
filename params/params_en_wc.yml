@@ -1,0 +1,55 @@
+#coding=utf-8
+## 画布及大小相关参数
+# 词云宽度  
+width: 400
+# 词云高度
+height: 200  
+# 词云掩码，除全白（#FFFFFF）的部分将不会绘制（若 mask 非空，设置的宽高值将被忽略）
+mask: 
+# 掩码轮廓
+contour_width: 0
+
+## 显示相关参数
+# 显示的最小的字体大小
+min_font_size: 4
+# 显示的最大的字体大小
+max_font_size: 
+# 字体路径
+font_path:   
+# 词语水平方向排版出现的频率
+prefer_horizontal: 0.9  
+
+## 内容相关参数
+# 显示的词的最大个数
+max_words: 200
+# 词频和字体大小的关联性
+relative_scaling: 0.5
+# 使用正则表达式分隔输入的文本
+regexp : 
+# 是否包括两个词的搭配（bigrams）
+collocations: True
+# 停用词（如果为空，则使用内置的STOPWORDS）
+stopwords: 
+# 是否删除单词末尾的s（除非以ss结尾）
+normalize_plurals: True
+# 是否包含数字
+include_numbers: False
+# 最小单词长度
+min_word_length: 0
+# 是否根据词频
+from_frequencies: False
+
+## 颜色相关参数
+# 背景颜色
+background_color: 'white'
+# 透明模式（当参数为"RGBA"并且background_color不为空时，背景为透明）
+mode: "RGB"
+# 颜色盘（给每个单词随机分配颜色，若指定color_func，则忽略该方法）
+colormap: "viridis"
+# 生成新颜色的函数
+color_func: 
+
+
+
+
+

@@ -1,0 +1,33 @@
+#coding=utf-8
+## 画布及大小相关参数
+# 词云宽度  
+width: 400
+# 词云高度
+height: 200  
+# 词云掩码，除全白（#FFFFFF）的部分将不会绘制（若 mask 非空，设置的宽高值将被忽略）
+mask: '1.jpg'
+# 掩码轮廓
+contour_width: 0
+
+## 显示相关参数
+# 显示的最小的字体大小
+min_font_size: 4
+# 显示的最大的字体大小
+max_font_size: 
+# 字体路径
+font_path: 'C:\WINDOWS\FONTS\STFANGSO.ttf'
+# 词语水平方向排版出现的频率
+prefer_horizontal: 0.9  
+
+## 内容相关参数
+# 显示的词的最大个数
+max_words: 200
+
+## 颜色相关参数
+# 背景颜色
+background_color: 'white'
+# 默认字体颜色
+default_txt_color: 'grey'
+# 透明模式（当参数为"RGBA"并且background_color不为空时，背景为透明）
+mode: "RGB"
+
